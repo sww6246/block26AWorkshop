@@ -70,3 +70,13 @@ button {
   transition: transform 0.2s ease;
   border: 1px solid #ffffff
 }
+
+.card:hover {
+  transform: scale(1.1);
+  transition-duration: 1s;
+
+}
+
+button:hover {
+  background-color: #800a0a;;
+}
