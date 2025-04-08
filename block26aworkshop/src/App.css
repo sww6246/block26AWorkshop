@@ -61,3 +61,12 @@
 button {
   background-color: #c80f0f;
 }
+
+.single-card {
+  background-color: #0f1491;
+  border-radius: 10px;
+  padding: 16px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease;
+  border: 1px solid #ffffff
+}

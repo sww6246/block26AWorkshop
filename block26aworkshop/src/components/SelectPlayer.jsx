@@ -31,10 +31,16 @@ export default function SelectedPlayer({ selectedPlayerId, setSelectedPlayerId }
   if (!player) return <p>Loading player details...</p>;
 
   return (
-    <div>
+    <div className="single-card">
       <h2>{player.first_name} {player.last_name}</h2>
       <p>Position: {player.position || "N/A"}</p>
       <p>Team: {player.team?.full_name}</p>
+      <p>Height: {player.height}</p>
+      <p>Weight: {player.weight} lbs.</p>
+      <p>Nationality: {player.country}</p>
+      <p>Draft Year: {player.draft_year}</p>
+      <p>Player College: {player.college}</p>
+      <p>Jersey Number: {player.jersey_number}</p>
       <button onClick={() => setSelectedPlayerId(null)}>Back to All Players</button>
     </div>
   );

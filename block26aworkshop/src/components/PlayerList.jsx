@@ -31,7 +31,11 @@ export default function PlayerList({setSelectedPlayerId}){
         <table>
             <thead>
                 <tr>
-                   <th>NBA Players</th>
+                   <th>
+                   <img src="https://images.squarespace-cdn.com/content/v1/5c1c8c77506fbeb3b18eaadf/1551666649360-TUJL5FEB435P6PXT1CCD/nba-logo.png" height="200px"></img>
+                      <h1>NBA Players</h1>
+                      <p>Select a player below to learn more!</p>
+                    </th>
                 </tr>
             </thead>
             <tbody>
